@@ -10,9 +10,6 @@ Cube(n);
 void Cube(int n)
 {
     for (int i = 1; i <= n; i++)
-    if (i <= n)
-        {
-        Console.WriteLine($"{i} | {i * i * i}");
-        }
+    if (i <= n) Console.WriteLine($"{i} | {i * i * i}");
 }
 
